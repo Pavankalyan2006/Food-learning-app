@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Left Side Cover</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-attachment: scroll;
+        }
+
+        .container {
+            position: relative;
+            width: 100vw;
+            height: 200vh;
+            overflow: hidden;
+        }
+
+        .cover {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 33%; 
+            height: 100%;
+            background-color: rgb(166, 162, 162); 
+text-align: center;
+background-attachment: scroll;
+        }
+
+        .content {
+            position: absolute;
+            top: 0;
+            left: 500px;
+            top: -450px;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white; 
+            font-size: 24px;
+        }
+        .user{
+            position: absolute;
+            left: 600px;
+            top: 450px;
+            color:black;
+
+        }
+        .button {
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 50px;
+  margin-left: 100px;
+  cursor: pointer;
+  border-radius: 40%;
+}
+textarea {
+            width: 50%;
+            height: 10px;
+            margin-bottom: 60px;
+
+        }
+
+        #savedText {
+            white-space: pre-line;
+ margin-bottom: 30px;
+           
+        }
+        #searchContainer {
+            text-align: center;
+            margin-left: 50px;
+        }
+
+        #searchInput {
+            padding: 10px;
+            width: 400px; 
+            border: 2px solid #3498db; 
+            border-radius: 6px;
+            outline: none; 
+            margin-left: 20px;
+        }
+
+        #searchButton {
+          
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            margin-top: -50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="C:\Users\pavan\OneDrive\Desktop\lol.jpeg" width="100px">
+
+        <div class="cover">
+            <script>
+                function display()
+                {
+                document.getElementById("display").innerHTML="EXCELLENT"
+                }
+                {
+                document.getElementById("display").innerHTML="GOOD"
+                }
+                </script>
+                <h1 style="color: yellow;">Biriyani</h1>
+                <h3 id="display"> COMPLIMENT</h3>
+                <button type="button" onclick="display()">EXCELLENT</button>
+                <button type="button" onclick="display()">GOOD</button>
+                <button type="button" onclick="display()">  BAD</button>
+                <form>
+                    <h3>ingredients</h3>
+                    <ul>
+                        <li>Rice</li>
+                        <li>Fennel seeds</li>
+                        <li>Ghee</li>
+                        <li>Nutmeg</li>
+                        <li>Mace</li>
+                        <li>Pepper</li>
+                        <li>clovess</li>
+                    <li>Cardamom</li>
+                    <li>Bay leaves</li>
+                    <li>Coriander</li>
+                    </ul>
+                    </form> 
+                    <script>
+                        var a=prompt("enter number of persons")
+                        alert("no.of persons: " +a)
+                        console.log("no.of persons: "+a)
+                        document.write("<h3>No.of persons: "+ a +"</h3>")
+                        </script>
+                        <script>  
+                        var b = prompt("Enter a number persons:");  
+                        var C = parseFloat(b); 
+                        c=b*100 
+                        d=b*10
+                        e=b*20
+                        f=b*10
+                        g=b*20
+                        f=b*45
+                        h=b*30
+                        i=b*80
+                        j=b*5
+                        k=b*5
+                        if (C > 0) { 
+                            document.write("<p>Rice =" + c +"</p>"
+                            ); 
+                     
+                    
+                            document.write("<p>Fennel seeds =" + d +"</p>"
+                            ); 
+                            document.write("<p>Ghee =" + e +"</p>"
+                            ); 
+                            document.write("<p>Nutmeg =" + f +"</p>"
+                            ); 
+                         document.write("<p>Mace =" + g +"</p>"
+                            ); 
+                            document.write("<p>Pepper =" + h +"</p>"
+                            ); 
+                            document.write("<p>Cardamom =" + i +"</p>"
+                            ); 
+                            document.write("<p>Bay leaves =" + j +"</p>"
+                            );
+                            document.write("<p>Coriander =" + k +"</p>"
+                            ); 
+                        } 
+                    
+                        else if (c < 0) { 
+                            document.write("<p>specify the numbers</p>"); 
+                        } 
+                            </script>
+                        </div>
+        <div class="content">
+            <video controls width="950" height="300"> 
+                <source src="C:\Users\pavan\Downloads\ఎప్పుడు చేసినా ఒకే రుచి  చల్లారినా అస్సలు చిక్కబడని సేమియా పాయసం _ 100% Best Semiya Payasam Recipe.mp4" class="mean">
+              </video>
+            
+            <p>This is the left side of the container with a cover effect.</p>
+        </div>
+        <div class="user">
+            <a href = "C:\Users\pavan\OneDrive\Desktop\form1.html"class="button">Share</center></a>
+            <a href = "C:\Users\pavan\OneDrive\Desktop\form1.html"class="button">Save</center></a>
+            <a href = "C:\Users\pavan\OneDrive\Desktop\form1.html"class="button">Download</center></a>
+            
+            <textarea id="inputText" placeholder="Type the Comments" rows="1"cols="31"style="border-radius: 20px;"></textarea>
+            <button onclick="saveText()">Save Text</button>
+            <div id="savedText"></div>
+        <script>
+                function saveText() {
+                    var inputText = document.getElementById('inputText').value;
+                    var savedTextDiv = document.getElementById('savedText');
+                    savedTextDiv.innerHTML += inputText + '<br>';
+                }
+            </script>
+
+            </div>
+    </div>
+</body>
+</html>
